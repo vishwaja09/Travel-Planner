@@ -1,4 +1,4 @@
-Travel Planner 
+## Travel Planner 
 
 The goal of this project is to use OpenAI GPT-3 Chat completion to generate a travel itinerary for a user. The user will be able to specify a destination, a trip duration, budget and more. The user will also be able to specify a few activities they would like to do. The Travel Planner will then generate a travel itinerary for the user.
 
@@ -38,7 +38,7 @@ The app uses OpenAI's GPT-3 API with Altogic Integration to generate the travel 
     "role": "user",
     "content": {{CONCAT(input.body.prompt, "Format your response using Markdown. Use headings, subheadings, bullet points, and bold to organize the information.")}}
   }
-]
+]```
 
 9. Define the API Key field with your OpenAI API key.
 
